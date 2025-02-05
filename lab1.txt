@@ -1,0 +1,18 @@
+=======================1=========================
+1- open github then add new SSH key 
+2- run command (ssh-keygen -t rsa -b 4096 -C "mohamedmustafa8112001@gmail.com") in visual studio code 
+3- cat ~/.ssh/id_rsa.pub ==>to display the key then add it in github to link the github by vs code 
+
+
+=======================2=========================
+1- create new repository
+2- mkdir new_repo , then cd new_repo   ,  git init
+3- git remote add origin git@github.com:mohamed8112001/new_repo.git
+3- git branch -m main 
+4- create index.html 
+5- git add index.html 
+6- git commit -m "first_push"
+7- git push -u origin main 
+
+
+
